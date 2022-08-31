@@ -1,0 +1,41 @@
+[
+  {
+    "name": "KFC",
+    "id": "123",
+    "icon": "kfc",
+    "menuCategory": [
+      {
+        "id": "678",
+        "name": "Desert 1",
+        "icon": "kfc",
+        "decscriptionText": "Desert 1 description",
+        "price": 12,
+        "currecy": "SR"
+      },
+      {
+        "id": "1243",
+        "name": "Desert 2",
+        "icon": "kfc",
+        "decscriptionText": "Desert 2 description",
+        "price": 14,
+        "currecy": "SR"
+      },
+      {
+        "id": "9384",
+        "name": "Pepsi",
+        "icon": "kfc",
+        "decscriptionText": "Pepsi description",
+        "price": 24,
+        "currecy": "SR"
+      },
+      {
+        "id": "44433",
+        "name": "7 up",
+        "icon": "kfc",
+        "decscriptionText": "7 up description",
+        "price": 14,
+        "currecy": "SR"
+      }
+    ]
+  }
+]
