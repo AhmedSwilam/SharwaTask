@@ -6,25 +6,6 @@
     app:startDestination="@+id/restaurantFragment">
 
     <fragment
-        android:id="@+id/rest_fragment"
-        android:name="com.hungerstation.interviewquestionone.ui.home.RestaurantsFragment"
-        android:label="@string/menu_home"
-        tools:layout="@layout/restaurants_fragment" >
-    </fragment>
-
-    <fragment
-        android:id="@+id/nav_gallery"
-        android:name="com.hungerstation.interviewquestionone.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" >
-    </fragment>
-
-    <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.hungerstation.interviewquestionone.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
-    <fragment
         android:id="@+id/restaurantFragment"
         android:name="com.hungerstation.interviewquestionone.ui.restaurant.RestaurantFragment"
         android:label="fragment_restaurant"
