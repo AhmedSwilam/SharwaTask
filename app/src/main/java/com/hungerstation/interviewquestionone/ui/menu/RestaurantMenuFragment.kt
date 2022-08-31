@@ -70,7 +70,7 @@ class RestaurantMenuFragment : Fragment(), CartClickedListeners {
             }
         }
 
-        Log.d("TAG", "onAddToCartBtnClicked: " + quantity[0])
+
 
         if (quantity[0] == 1) {
             resturant.price = quantity[0].toDouble().toString()
@@ -80,12 +80,9 @@ class RestaurantMenuFragment : Fragment(), CartClickedListeners {
             )[CartViewModel::class.java]
             cartViewModel.insertCartItem(ItemCart(null,itemName,itemdesc,""
                 ,itemPrice.toDouble(),quantity.size,totalItemPrice))
-//            Log.d("shoeCart", itemCart.quantity.toString())
 
         } else {
-//            cartViewModel.updateCart(ItemCart(null,itemName,itemdesc,""
-//                ,itemPrice.toDouble(),quantity.size,totalItemPrice))
-//            cartViewModel.updatePrice(id[0], quantity[0] * itemCart.shoePrice)
+            Log.d("TAG", "onAddToCartBtnClicked: " + quantity[0])
         }
 
         makeSnackBar("Item Added To Cart")
